@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: #3681d1;
+    height: 3rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-stretch: expanded;
+}
+
+nav h2 {
+    padding-left: 3rem;
+    color: white;
+    font-weight: bolder;
+}
+
+input {
+    border: inset;
+}
+
+.wrapper {
+    display: flex;
+    width: 60vw;
+    padding: 1rem 3rem;
+    background-color: #EAEBED;
+    margin: 2rem auto;
+    margin-top: 2rem;
+}
+
+.w-3 {
+    width: 60vw;
+    padding: 0.2rem 0.2rem;
+    margin-top: 0.5rem;
+    outline: none;
+}
+
+#searchInput {
+    width: 59.3vw;
+}
+
+.radioContainer {
+    padding: 0.5rem 0;
+    display: flex;
+    gap: 0.4rem;
+}
+
+#btn {
+    margin-top: 1rem;
+    padding: .4rem 0;
+    background-color: #3681d1;
+    color: white;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+#btn:active {
+    transform: translateX(1px);
+}
+
+/* Card css */
+#result {
+    display: flex;
+    padding: 3rem;
+    flex-wrap: wrap;
+    margin: auto !important;
+}
+
+.card {
+    margin: 2px;
+    width: 18vw;
+}
+
+#image {
+    width: 15vw;
+}
+
+#heading {
+    padding: 0.2rem 0.4rem;
+}
+
+#text {
+    padding: 0.2rem 0.5rem;
+}
+
+#redditLink {
+    padding: 0.3rem;
+    background-color: #3681d1;
+    border-radius: 0.3rem;
+    border: none;
+    margin: 0.3rem;
+    color: white;
+    gap: 2rem;
+}
+
+#redditLink a {
+    text-decoration: none;
+    color: #EAEBED;
+}
+
+/* alert css */
+.alert {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 108, 108);
+    height: 2rem;
+    width: 80vw;
+    margin: 4px auto;
+    border-radius: .2rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    color: rgb(15, 11, 11);
+    font-size: medium;
+}
